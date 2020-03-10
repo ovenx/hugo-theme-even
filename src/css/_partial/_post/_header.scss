@@ -1,6 +1,10 @@
 .post-header {
   margin-bottom: 20px;
 
+  &.no-padding {
+    margin-bottom: 0px;
+  }
+  
   .post-title {
     margin: 0;
     font-size: $post-title-font-size;
